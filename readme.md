@@ -6,13 +6,11 @@ The notebooks act like interactive utility scripts for converting between differ
 
 ## Setup
 
-[librosa](https://github.com/bmcfee/librosa) currently needs some extra help on OS X, make sure to follow the instructions [here](https://github.com/bmcfee/librosa#hints-for-os-x) first.
-
 Unfortunately, this scripts are written for Python 2.7, so conda is required to create a Python 2.7 environment. If you don't have conda, you can install it with `brew install conda` on MacOS or download it from [here](https://conda.io/miniconda.html).
 
 ```
 $ conda create -n audio python=2.7
-$ source activate audio
+$ conda activate audio
 ```
 
 Then install the required packages:
