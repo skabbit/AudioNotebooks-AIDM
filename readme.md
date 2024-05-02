@@ -17,7 +17,7 @@ Then install the required packages:
 ```
 $ conda install ffmpeg  # for loading and saving audio
 $ git clone https://github.com/kylemcdonald/AudioNotebooks.git
-$ cd AudioNotebooks.git
+$ cd AudioNotebooks
 $ pip install -r requirements.txt
 $ jupyter notebook
 ```
@@ -28,6 +28,7 @@ This repo has one common script `random.operator - full script for idm.ipynb`, i
 Set `idm_root` to the root of the `aiexperiments-drum-machine` repository, in order to save the output files in the correct location.
 Set the path to the samples folder in the notebook to the variable `data_root`. All samples must be audio files readable by `ffmpeg`: wave, mp3, etc.
 Run all cells and then start `webpack-dev-server` inside the `aiexperiments-drum-machine` folder.
+To run `aiexperiments-drum-machine` you need to install NodeJS v6 and then install all packages with `npm install`.
 
 ## Terminology
 
